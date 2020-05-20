@@ -1,15 +1,15 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: ferllen
+title: Arkanoid
+description: Arkanoid is a team of people who stream games, infosec content and much more.
 tags:
   - blog
   - template
   - jekyll
   - theme
   - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
+email: hussaini.faisal@gmail.com
+disqus_username: ferllen
 show_hero: true
 menu:
   - title: Home
@@ -24,13 +24,12 @@ menu:
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
-
+github_username: kNgF
+facebook_username: arkanoidgg
+twitter_username: _kNgF
+instagram_username: __kngf__
+linkedin_username: in/faisal-husaini-43009b95
+medium_username: @hussaini.faisal
 
 # Posts Settings
 show_time_bar: true
