@@ -4,10 +4,10 @@ title: Arkanoid
 description: Arkanoid is a team of people who stream games, infosec content and much more.
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - games
+  - hacking
+  - infosec
+  - streaming
 email: hussaini.faisal@gmail.com
 disqus_username: ferllen
 show_hero: true
