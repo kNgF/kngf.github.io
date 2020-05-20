@@ -1,15 +1,15 @@
 ---
 layout: author
-photo: /assets/img/uploads/profile.png
-name: thiagorossener
-display_name: Thiago Rossener
-position: Chief Editor
-bio: Just a developer.
-github_username: thiagorossener
-facebook_username: thiagorossener
-twitter_username: thiagorossener
-instagram_username: thiagorossener
-linkedin_username: thiagorossener
-medium_username: thiagorossener
+photo: /assets/img/uploads/profile_pic.jpg
+name: faisalhusaini
+display_name: Faisal Husaini
+position: Penetration Tester
+bio: Just an infosec guy.
+github_username: kNgF
+facebook_username: arkanoidgg
+twitter_username: _kNgF
+instagram_username: __kngf__
+linkedin_username: faisal-husaini-43009b95
+medium_username: @hussaini.faisal
 ---
 
