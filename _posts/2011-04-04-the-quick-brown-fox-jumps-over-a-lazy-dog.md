@@ -24,6 +24,98 @@ Running nmap full port scan on it , we get
 
 ![placeholder](https://cdn-images-1.medium.com/max/1600/1*XPRXOljrrQSQZQKBVO-51g.png "Large example image")
 
+We get 2 Open Ports and 2 Closed Ports, so we now run service scan for each one of those open ports
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*XdFF3IfDDUEB8xo5cDOxJw.png "Large example image")
+
+So on the Open Ports we see that we have one for SSH and other for Web Part on 22 and 8080 respectively. I still don't know why NMAP gave results for Closed Ports
+Moving onto the web part
+
+## Port 8080 - Web
+
+Loading the website in the browser with the port
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+We see that its a webpage related to security , scrolling further more
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+
+We see we have a Development section and also we a message to the server devs that the source code of the web server running is in a secret development directory by the filename <em><strong>"SuperSecureServer.py"</strong></em>
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+So we run a simple bash script to automate the bruteforcing of directory search and then we get a successful hit , i.e, develop
+Now trying to access the source code
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+We see its a long code, but reading carefully each functions, we get one which looks interesting
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+On the function ***serveDoc***, we see that it tries to use the exec function on the path, so I just copy some lines of the function to my local machine and try to exploit it manually first
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+These lines were copied and now we execute our python script
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+We see that we can successfully perform code execution by just escaping with a semicolon followed by the ***os.system*** function which will then be followed by our system commands
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+So here we try to get reverse shell and looking back to the netcat listener
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+![placeholder](https://cdn-images-1.medium.com/max/2400/1*X2j336pCvT5TCX6odfZeHQ.png "Large example image")
+
+
+
+
+
+
 
 
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
