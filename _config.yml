@@ -61,6 +61,7 @@ use_logo: false
 # Content paginator
 paginate_content:
   enabled: true
+  paginate: 14
   debug: false
   collections:
     - posts
