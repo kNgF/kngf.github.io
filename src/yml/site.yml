@@ -1,15 +1,15 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: Arkanoid
+title: Arkanoid
+description: Arkanoid is a team of people who stream games, infosec content and much more.
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
+  - games
+  - infosec
+  - hacking
+  - streaming
+email: hussaini.faisal@gmail.com
 show_hero: true
+paginate: 13
 menu:
   - title: Home
     url: /
@@ -17,5 +17,5 @@ menu:
     url: /about
   - title: Contact
     url: /contact
-  - title: Feed
-    url: /feed.xml
+  - title: Support
+    url: /
