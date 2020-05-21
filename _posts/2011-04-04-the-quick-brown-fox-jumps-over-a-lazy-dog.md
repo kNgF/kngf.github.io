@@ -18,6 +18,14 @@ author: ferllen
 Hello Guys , I am <a href="https://twitter.com/_kNgF">Faisal Husaini</a>. My username on HTB is <a href="https://www.hackthebox.eu/home/users/profile/7404">ferllen</a> . Also join me on discord.
 The IP of this box is 10.10.10.168
 
+## Port Scan
+
+Running nmap full port scan on it , we get
+
+![placeholder](https://cdn-images-1.medium.com/max/1600/1*XPRXOljrrQSQZQKBVO-51g.png "Large example image")
+
+
+
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
 Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
