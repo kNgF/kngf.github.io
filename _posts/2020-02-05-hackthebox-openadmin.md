@@ -12,11 +12,11 @@ tags:
   - ctf
   - infosec
   - hacking
-author: thiagorossener
+author: ferllen
 paginate: true
 ---
 
-Hello Guys , I am <a href="https://twitter.com/_kNgF">Faisal Husaini</a>. My username on HTB is <a href="https://www.hackthebox.eu/home/users/profile/7404"kNgF</a>. Also join me on discord.
+Hello Guys , I am <a href="https://twitter.com/_kNgF">Faisal Husaini</a>. My username on HTB is <a href="https://www.hackthebox.eu/home/users/profile/7404">ferllen</a>. Also join me on discord.
 
 The IP of this box is **10.10.10.171**
 
