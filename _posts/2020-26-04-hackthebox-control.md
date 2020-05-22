@@ -1,5 +1,5 @@
 ---
-date: 2020-26-04 12:26:40
+date: 2020-04-26 12:26:40
 layout: post
 title: HackTheBox - Control
 subtitle: HackTheBox Control Walkthrough by Ferllen
