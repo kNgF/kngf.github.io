@@ -15,6 +15,7 @@ tags:
   - ctf
   - infosec
 author: ferllen
+paginate: true
 ---
 
 Hello Guys , I am <a href="https://twitter.com/_kNgF">Faisal Husaini</a>. My username on HTB is <a href="https://www.hackthebox.eu/home/users/profile/7404">ferllen</a> . Also join me on discord.
