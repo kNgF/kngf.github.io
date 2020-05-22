@@ -1,5 +1,5 @@
 ---
-date: 2020-02-05 12:26:40
+date: 2020-05-02 12:26:40
 layout: post
 title: HackTheBox - OpenAdmin 
 subtitle: HackTheBox Walkthrough - OpenAdmin
