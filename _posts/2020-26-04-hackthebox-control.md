@@ -153,10 +153,7 @@ We got shell as ***nt authority\system***
 
 # Youtube Video
 
- <iframe width="420" height="315"
-src="https://www.youtube.com/watch?v=_ynBlMqLWqU
-">
-</iframe> 
+ <iframe width="420" height="315" src="https://www.youtube.com/embed/_ynBlMqLWqU?autoplay=1"></iframe> 
 
 # References
 
