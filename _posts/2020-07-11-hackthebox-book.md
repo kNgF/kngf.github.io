@@ -179,5 +179,3 @@ Moving onto getting the root flag
 
 <a href="https://www.noob.ninja/2017/11/local-file-read-via-xss-in-dynamically.html?m=1">Local File Read via XSS in Dynamically Generated PDF </a>
 
-
-<script src="https://www.hackthebox.eu/badge/7404"></script>
