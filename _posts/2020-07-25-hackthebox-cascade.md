@@ -13,9 +13,9 @@ tags:
 author: hulegu
 ---
 
-Hello Guys , I am <a href="https://twitter.com/_kNgF">Faisal Husaini</a>. My username on HTB is <a href="https://www.hackthebox.eu/home/users/profile/7404">ferllen</a>. Also join me on discord.
+Hello Guys , I am <a href="https://twitter.com/_kNgF">Faisal Husaini</a>. My username on HTB is <a href="https://www.hackthebox.eu/home/users/profile/7404">hulegu</a>. Also join me on discord.
 
-The IP of this box is **10.10.10.171**
+The IP of this box is **10.10.10.182**
 
 ## Port Scan
 
