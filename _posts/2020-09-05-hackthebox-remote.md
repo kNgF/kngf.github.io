@@ -2,7 +2,7 @@
 date: 2020-09-05 12:26:40
 layout: post
 title: HackTheBox - Remote
-description: Easy Active Directory Based Machine
+description: Easy Windows Machine
 image: https://cdn-images-1.medium.com/max/800/0*7s78AjhTEzgI5qgF
 optimized_image: https://cdn-images-1.medium.com/max/800/0*7s78AjhTEzgI5qgF
 category: HackTheBox
