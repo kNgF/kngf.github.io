@@ -2,13 +2,13 @@
 date: 2020-10-17 12:26:40
 layout: post
 title: HackTheBox - Blunder
-description: Medium Linux Machine containing Memcached Server and Docker Privilege Escalation
+description: Easy Linux Machine containing Bludit and sudo Security Bypass Privilege Escalation
 image: https://miro.medium.com/max/700/0*QbMsDQ0H57VSiLMA
 optimized_image: https://miro.medium.com/max/700/0*QbMsDQ0H57VSiLMA
 category: HackTheBox
 tags:
-  - docker
-  - memcache
+  - sudo
+  - bludit
   - linux
 author: anishka
 paginate: true
