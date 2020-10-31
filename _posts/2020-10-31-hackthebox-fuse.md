@@ -2,13 +2,12 @@
 date: 2020-10-31 12:26:40
 layout: post
 title: HackTheBox - Fuse
-description: Easy Linux Machine containing Bludit and sudo Security Bypass Privilege Escalation
+description: Medium Active Directory Based Machine Having SELoadPrivilege Exploitation
 image: https://cdn-images-1.medium.com/max/800/0*qmMrZ58DcVOsKUCN
 optimized_image: https://cdn-images-1.medium.com/max/800/0*qmMrZ58DcVOsKUCN
 category: HackTheBox
 tags:
-  - sudo
-  - bludit
+  - AD
   - windows
 author: anishka
 paginate: true
