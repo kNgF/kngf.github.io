@@ -140,7 +140,7 @@ Now we run the exploit and check our netcat listener
 
 We got shell as SYSTEM and now we get the root flag
 
-![placeholder](https://cdn-images-1.medium.com/max/800/1*x4GsO1qThcgSKsgXCA3C0g.png" Large example image")
+![placeholder](https://cdn-images-1.medium.com/max/800/1*x4GsO1qThcgSKsgXCA3C0g.png "Large example image")
 
 
 
