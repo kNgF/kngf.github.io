@@ -2,7 +2,7 @@
 date: 2020-11-07 12:26:40
 layout: post
 title: HackTheBox - Tabby
-description: Medium Active Directory Based Machine Having SELoadPrivilege Exploitation
+description: Easy Linux Machine where we exploit LFI to get tomcat creds and then exploit tomcat manager using WAR files and then LXD group permission exploitation for privilege escalation
 image: https://cdn-images-1.medium.com/max/800/0*iwEoJcs6HrQdcoE4
 optimized_image: https://cdn-images-1.medium.com/max/800/0*iwEoJcs6HrQdcoE4
 category: HackTheBox
